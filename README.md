@@ -8,4 +8,4 @@
 - [MicrosoftLearning/AI-102-AIEngineer](https://github.com/MicrosoftLearning/AI-102-AIEngineer/tree/master)
 
 ## Examples by AI services
-- [1. Content Safety](https://learn.microsoft.com/en-us/python/api/overview/azure/ai-contentsafety-readme?view=azure-python)
+  1. [Content Safety](https://learn.microsoft.com/en-us/python/api/overview/azure/ai-contentsafety-readme?view=azure-python)
