@@ -32,8 +32,8 @@ credential = AzureKeyCredential("<api_key>")
 ### 3. Pass key to the client
 
 ```
-content_safety_client = ContentSafetyClient(endpoint, *credential*)
-blocklist_client = BlocklistClient(endpoint, *credential*)
+content_safety_client = ContentSafetyClient(endpoint, credential)
+blocklist_client = BlocklistClient(endpoint, credential)
 ```
 
 Contect classification, 4 categories (could be multi-labeled):
@@ -49,7 +49,7 @@ Severety levels for Text and Image
 [4,5] -> 4
 [6.7] -> 6
 
-Can be changed using outputType=EightSeverityLevels in request
+Can be changed using *outputType=EightSeverityLevels* in request
 Then output: 0,1,2,3,4,5,6,7.
 
 
