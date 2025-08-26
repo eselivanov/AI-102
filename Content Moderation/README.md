@@ -4,20 +4,27 @@ https://learn.microsoft.com/en-us/python/api/overview/azure/ai-contentsafety-rea
 
 ## Install the package
 
-```pip install azure-ai-contentsafety
+```
+pip install azure-ai-contentsafety
+```
 
 ## Authenticate the client
 ### Get the endpoint for the Azure AI Content Safety service resource
 
-```az cognitiveservices account show --name "resource-name" --resource-group "resource-group-name" --query "properties.endpoint"
-
+```
+az cognitiveservices account show --name "resource-name" --resource-group "resource-group-name" --query "properties.endpoint"
+```
 ### 1. Get API key
 
-```az cognitiveservices account keys list --name "<resource-name>" --resource-group "<resource-group-name>"
+```
+az cognitiveservices account keys list --name "<resource-name>" --resource-group "<resource-group-name>"
+```
 
 ### 2. Get credentials 
 
-```credential = AzureKeyCredential("<api_key>")
+```
+credential = AzureKeyCredential("<api_key>")
+```
 
 ### 3. Pass key to the client
 
