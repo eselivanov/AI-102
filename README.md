@@ -16,7 +16,7 @@ urlFragment: ai-102
 ## Some prep
 [Get started with Python on Azure](https://learn.microsoft.com/en-us/azure/developer/python/get-started?view=azure-python)
 
-## Overal review of AI servise in Azure with Python examples
+## Overal review of AI servises in Azure with Python examples
 - [Azure Cognitive Services modules for Python](https://learn.microsoft.com/en-us/python/api/overview/azure/cognitive-services?view=azure-python)
 - (* archived in 2023) [MicrosoftLearning/AI-102-AIEngineer](https://github.com/MicrosoftLearning/AI-102-AIEngineer/tree/master)
 
@@ -31,3 +31,6 @@ https://learn.microsoft.com/en-us/azure/search/samples-python
 
 - Excellent repo of samples:
 https://github.com/Azure-Samples/azure-search-python-samples/tree/main/Quickstart
+
+- Azure SDK for Python (likely most conprehensive repo):
+https://github.com/Azure/azure-sdk-for-python/tree/azure-ai-documentintelligence_1.0.2/sdk
